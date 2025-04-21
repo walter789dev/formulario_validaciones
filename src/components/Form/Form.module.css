@@ -1,0 +1,25 @@
+.form {
+  width: 30vw;
+  padding: 30px 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form__title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0px;
+  width: 75%;
+  margin: 20px auto 0px;
+}
+
+.form__inputs > button {
+  width: 150px;
+  margin: 10px auto 0px;
+}
